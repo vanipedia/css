@@ -1,0 +1,95 @@
+.verse_div {
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	padding: 10px;
+	border: 1px solid;
+	text-align: center;
+	-moz-border-radius: 5px;
+}
+.verse_div > * {
+	margin: 10px;
+}
+.id {
+	color: blue;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+.indevr {
+	color: maroon;
+	font-family: Indevr;
+	font-size: 1.5em;
+}
+.sanskrit_uni {
+	color: blue;
+	font-size: 1.8em;
+}
+.verse {
+	font-size: 1.2em;
+}
+.sanskrit_uni, .verse {
+	white-space: pre;
+}
+.sanskrit_uni form textarea, .verse form textarea {
+	text-align: center;
+}
+.status {
+	position: relative;
+	float: right;
+	color: red;
+	font-size: 1.1em;
+	font-style: italic;
+}
+#tools {
+	display: none;
+	position:fixed;
+	text-align:center;
+	top:5px;
+	right:5px;
+	width:150px;
+	padding:5px;
+	margin: 5px;
+	font-weight:bold;
+	font-family:tahoma;
+	-moz-border-radius: 5px;
+}
+#tools > * {
+	margin: 2px;
+}
+#tools #ajax, #tools #zoom_all, #tools #zoom, #tools .zoom_b {
+	text-align:center;
+	padding: 2px;
+	font-weight:bold;
+	font-family:tahoma;
+	-moz-border-radius: 5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#tools #ajax {
+	display:none;
+	background-color:DarkGray;
+	width:150px;
+	opacity:0.8;
+}
+#tools #zoom_all {
+	background-color:CornflowerBlue;
+	width:100px;
+}
+#tools #zoom_all, #tools #zoom {
+	cursor:pointer;
+}
+#tools #zoom {
+	width: 80px;
+}
+#tools #zoom .zoom_b  {
+	background-color:CornflowerBlue;
+	width: 30px;
+	float:left;
+	margin: 0px 2px;
+	font-size: 1.5em;
+}
+#tools_toggle {
+	color: blue;
+	cursor: pointer;
+}
