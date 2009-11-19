@@ -93,3 +93,17 @@
 	color: blue;
 	cursor: pointer;
 }
+#more {
+	float: right;
+	cursor: pointer;
+	color: blue;
+	position: relative;
+	right: 4%;
+}
+.desc_handle {
+	color: blue;
+	cursor: pointer;
+}
+.desc {
+	display: none;
+}
