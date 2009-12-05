@@ -59,7 +59,7 @@
 #translation {
   font-weight: bold;
 }
-#devanagari, #text {
+#devanagari {
   white-space: pre;
   font-size: 1.2em;
 }
